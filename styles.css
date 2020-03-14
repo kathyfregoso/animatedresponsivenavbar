@@ -108,6 +108,7 @@ vh is relative to the size of the viewport
 }
 
 .nav-link svg {
+    width: 2rem;
     min-width: 2rem;
     margin: 0 1.5rem;
 }
@@ -117,7 +118,17 @@ vh is relative to the size of the viewport
 }
 
 .navbar:hover .link-text {
-    display: block;
+    display: inline;
+}
+
+.navbar:hover .logo svg
+{
+  margin-left: 11rem;
+}
+
+.navbar:hover .logo-text
+{
+  left: 0px;
 }
 
 .fa-primary {
